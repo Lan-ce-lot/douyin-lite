@@ -3,13 +3,18 @@ module github.com/houqingying/douyin-lite
 go 1.20
 
 require (
+	github.com/fsnotify/fsnotify v1.6.0
 	github.com/spf13/viper v1.16.0
+	gorm.io/driver/mysql v1.5.1
+	gorm.io/gorm v1.25.3
 	k8s.io/klog v1.0.0
 )
 
 require (
-	github.com/fsnotify/fsnotify v1.6.0 // indirect
+	github.com/go-sql-driver/mysql v1.7.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
+	github.com/jinzhu/inflection v1.0.0 // indirect
+	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.8 // indirect
